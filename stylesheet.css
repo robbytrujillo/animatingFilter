@@ -1,0 +1,8 @@
+.circle:hover {
+    animation rotateHue 2s alternate infinite;
+}
+@keyframes rotateHue {
+    to {
+        filter: hue-rotate(350deg);
+    }
+}
